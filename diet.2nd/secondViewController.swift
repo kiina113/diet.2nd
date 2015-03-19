@@ -9,13 +9,26 @@
 import UIKit
 
 class secondViewController: UIViewController {
+    @IBOutlet weak var label: UILabel!
+//    @IBOutlet weak var label2: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.]
+        var defaults = NSUserDefaults.standardUserDefaults()
+        var upSting: String! = defaults.stringForKey("nameDouble")
+        label.text = "\(upSting)"
+        defaults.synchronize()
+        
     }
 
+    @IBAction func tapbt2() {
+        performSegueWithIdentifier("mySegue2", sender: nil)
+    
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

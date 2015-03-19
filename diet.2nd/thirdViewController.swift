@@ -9,11 +9,18 @@
 import UIKit
 
 class thirdViewController: UIViewController {
+    @IBOutlet weak var lable3: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        var defaults = NSUserDefaults.standardUserDefaults()
+        var aim: Double = defaults.doubleForKey("aimDouble")
+        var todayWeight: Double = defaults.doubleForKey("todayDouble")
+        lable3.text = "\(todayWeight - aim)"
+        defaults.synchronize()
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,13 +9,26 @@
 import UIKit
 
 class trainigViewController: UIViewController {
-
+    @IBOutlet weak var label: UILabel!
+    var number = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        number = 10
+        label.text = "\(number)"
     }
 
+    @IBAction func tapCountbt(sender: AnyObject) {
+        number = number - 1
+        label.text = "\(number)"
+        if number == -1     {
+            performSegueWithIdentifier("NextPage", sender: nil)
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

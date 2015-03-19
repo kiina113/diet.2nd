@@ -9,12 +9,22 @@
 import UIKit
 
 class todayViewController: UIViewController {
-
+    @IBOutlet weak var todayTextField: UITextField!
+    var defaults = NSUserDefaults.standardUserDefaults()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func tapBackbt(sender: AnyObject) {
+        defaults.setObject(todayTextField.text, forKey: "todayDouble")
+        performSegueWithIdentifier("backSegue", sender: nil)
+    }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

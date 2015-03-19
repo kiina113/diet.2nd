@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63541E30-C632-4DE4-84AF-766BD3A31960</string>
+	<key>IDESourceControlProjectName</key>
+	<string>diet.2nd</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>051F293C1A30D0EDE93C380C4444E09C9724FDB4</key>
+		<string>https://github.com/kiina113/diet.2nd.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>diet.2nd.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>051F293C1A30D0EDE93C380C4444E09C9724FDB4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kiina113/diet.2nd.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>051F293C1A30D0EDE93C380C4444E09C9724FDB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>051F293C1A30D0EDE93C380C4444E09C9724FDB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>diet.2nd</string>
+		</dict>
+	</array>
+</dict>
+</plist>
