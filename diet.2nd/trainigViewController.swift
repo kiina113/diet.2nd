@@ -23,7 +23,7 @@ class trainigViewController: UIViewController {
     @IBAction func tapCountbt(sender: AnyObject) {
         number = number - 1
         label.text = "\(number)"
-        if number == -1     {
+        if number == 0    {
             performSegueWithIdentifier("NextPage", sender: nil)
         }
     }
